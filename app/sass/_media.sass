@@ -1,0 +1,185 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.main-mnu
+		display: none
+		min-width: 295px
+		float: right
+		text-align: right
+		background-color: #1c242c
+		margin-top: 10px
+		position: absolute
+		right: 15px
+		z-index: 2
+		ul
+			li
+				display: block
+				line-height: 0
+				padding: 0
+			a
+				display: block
+				line-height: 48px
+				padding: 0 20px
+				background-color: transparent
+				font-size: em(18px)
+				&:hover
+					background-color: #273646
+
+	.phone
+		padding-right: 65px
+
+	.section-content
+		.s1-bottom-triangle
+			background-size: cover
+
+	.s3-img-wrap
+		margin-left: 82px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+	.main-mnu
+		top: 50px
+
+	.header-wrap
+		margin-top: 0
+		h1
+			margin-top: 0
+
+	.info-item
+		margin: 40px 0
+
+	.section_3
+		.section-content
+			background: none
+		.info-item-wrap
+			padding: 10px 0
+			.info-item
+				margin: 0!important
+
+	.triangles-container
+		.tc-item
+			&:nth-child(3)
+				margin-left: 0
+
+	.homesect
+		&.section_8
+			.section_8-left
+				h2
+					text-align: center
+					&::after
+						left: 50%
+						transform: translate(-50%, 0px)
+				p
+					text-align: center
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.info-item
+		max-width: 100%
+		margin-top: 20px
+		margin-bottom: 20px
+		border-bottom: 1px #d6dae0 solid
+		padding-left: 0
+		p
+			border: none
+		&:first-child
+			margin-top: 0
+		h4
+			margin-top: 20px
+
+	.s1-bottom
+		.info-item
+			border-color: #546476 solid
+
+	.info-item-wrap:last-child
+		.info-item
+			border-color: transparent
+
+	.section_1
+		.section-content
+			background-position: bottom
+
+	.section_3
+		.section-content
+			padding-top: 0
+			.info-item
+				border-color: #546476
+				p
+					margin-bottom: 0
+
+@media only screen and (max-width : 540px)
+	.triangles-container
+		.tc-item
+			&:not(:first-child)
+				margin-left: 0
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+	.phone-wrap
+		.phone
+			font-size: em(18px)
+			line-height: 34px
+			padding-right: 50px
+		.toggle-mnu
+			line-height: 34px
+			margin-top: 17px
+
+	.logo
+		img
+			width: 70px
+
+	.top-line
+		padding-top: 25px
+
+	.s2-item-wrap
+		padding: 0 10px
+		width: 140px
+
+	.slider
+		.owl-nav
+			top: 8%
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+	.main-mnu
+		display: block !important
+	a
+		outline: none
