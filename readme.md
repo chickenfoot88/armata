@@ -1,6 +1,6 @@
 # Урок по верстке адаптивного сайта. #
 #### Сайт фирмы Armata Financial Group по оказанию услуг независимой оценки имущества, подбора персонала, формирования отчетности. ####
-Сайт проекта: [Armata Financial Group](http://adel-ismagilov.ru/projects/lessons/armata/)
+Сайт проекта: [Armata Financial Group](http://adel-ismagilov.ru/lessons/armata/)
 ##### В проекте использовались: #####
 1. Task manager: [Gulp](https://gulpjs.com/)
 2. CSS preproccessor: [SASS](http://sass-lang.com/)
